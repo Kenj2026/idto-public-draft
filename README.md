@@ -1,13 +1,13 @@
 # IDTO: Public Draft Repository
 **Status:** DRAFT / For Discussion (Proposed / Pre-establishment)
 
-**International Digital Transparency Organization (provisional; “IDTO”)** — a public concept draft for a **non-regulatory, no-rating, federated transparency protocol**.  
-Not established. Not affiliated with any existing entities using the name “IDTO”.
+DRAFT (not established): Public IDTO concept for a **non-regulatory, no-rating, federated transparency protocol**.
 
 ## Latest
 - Latest draft: [`docs/IDTO_public_draft_latest.md`](docs/IDTO_public_draft_latest.md)
 - Versioned file (V4.5): [`docs/IDTO_Concept_Public_Draft_V4.5.md`](docs/IDTO_Concept_Public_Draft_V4.5.md)
-- Release (v4.5): [`releases/tag/v4.5`](releases/tag/v4.5)
+- Release (v4.5): https://github.com/Kenj2026/idto-public-draft/releases/tag/v4.5
+- Latest release: https://github.com/Kenj2026/idto-public-draft/releases/latest
 
 ## Fixed (Constitution)
 **3 Pillars**
@@ -26,7 +26,7 @@ Not established. Not affiliated with any existing entities using the name “IDT
 ## Open (RFC)
 See “Future Challenges (RFC)” in the draft and use Discussions/Issues to propose improvements and alternatives.
 
-- Discussions: [`discussions`](discussions)
+- Discussions: https://github.com/Kenj2026/idto-public-draft/discussions
 
 ## Contributing
 See [`CONTRIBUTING.md`](CONTRIBUTING.md) for where to post (RFC / Q&A / Issues) and how to propose changes.
