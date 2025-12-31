@@ -1,7 +1,8 @@
 # IDTO: Public Draft Repository
 **Status:** DRAFT / For Discussion (Proposed / Pre-establishment)
 
-DRAFT (not established): Public IDTO concept for a **non-regulatory, no-rating, federated transparency protocol**.
+**International Digital Transparency Organization (provisional; “IDTO”)** — a public concept draft for a **non-regulatory, no-rating, federated transparency protocol**.  
+Not established. Not affiliated with any existing entities using the name “IDTO”.
 
 ## Latest
 - Latest draft: [`docs/IDTO_public_draft_latest.md`](docs/IDTO_public_draft_latest.md)
@@ -32,5 +33,3 @@ See [`CONTRIBUTING.md`](CONTRIBUTING.md) for where to post (RFC / Q&A / Issues) 
 
 ## License
 This repository’s content is licensed under **CC BY 4.0** (see [`LICENSE`](LICENSE)).
-
-
