@@ -7,6 +7,8 @@ This repository publishes a public draft of the IDTO concept: a **non-regulatory
 - Latest draft: [`docs/IDTO_public_draft_latest.md`](docs/IDTO_public_draft_latest.md)
 - Versioned draft (V4.5): [`docs/IDTO_Concept_Public_Draft_V4.5.md`](docs/IDTO_Concept_Public_Draft_V4.5.md)
 - Release (v4.5): https://github.com/Kenj2026/idto-public-draft/releases/tag/v4.5
+- Latest release: https://github.com/Kenj2026/idto-public-draft/releases/latest
+- FAQ: [`FAQ.md`](FAQ.md)
 
 ## Fixed (Constitution)
 
