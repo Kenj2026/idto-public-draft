@@ -55,7 +55,7 @@ Operational choices and implementation details (see Chapter 8: Future Challenges
 ## 10) Where is the latest version?
 - Latest draft: `docs/IDTO_public_draft_latest.md`
 - Versioned file (V4.5): `docs/IDTO_Concept_Public_Draft_V4.5.md`
-- Releases: https://github.com/Kenj2026/idto-public-draft/releases/latest
+- Releases (latest): https://github.com/Kenj2026/idto-public-draft/releases/latest
 
 ## 11) Why move the “latest” to GitHub?
 To make updates and discussion:
@@ -84,3 +84,9 @@ A world where:
 ## 16) I have a question that is not covered here. Where should I ask?
 Please post in **Discussions → Q&A**.  
 If the answer becomes common, we will add it to this FAQ.
+
+## 17) Why is this concept proposed now?
+Debates on digital governance are often framed as a choice between **state regulation** and **corporate self-regulation**.  
+IDTO proposes a third approach: **Public Infrastructure for Transparency**.
+
+By standardizing how systems document **intent**, **changes**, and **reviewability**, we can shift from reactive arguments to proactive, evidence-based improvement.
