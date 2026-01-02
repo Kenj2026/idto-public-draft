@@ -90,6 +90,25 @@ IDTO is not a walled garden. It standardizes **formats and mappings**, not owner
 ---
 
 ## 4. The 6 Fixed Keywords (Constitutional Level)
+
+The Constitution-level core is fixed to reduce predictable misinterpretations.  
+Proposals that contradict these are out of scope for this draft.
+
+**3 Pillars**
+- Error-Correction as an OS
+- Recording Intent & Change
+- Protocol, not a Platform
+
+**6 Keywords**
+- Good-faith by default
+- Non-regulatory
+- Traceable & auditable
+- No rating
+- Federated
+- Politically neutral
+
+(See Chapter 3 for details on the Three Pillars.)
+
 These six keywords are fixed to reduce predictable misinterpretations.
 
 1) **Good-faith by default**  
