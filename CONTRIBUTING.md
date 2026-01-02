@@ -1,6 +1,6 @@
 # Contributing
 
-Thank you for your interest in the **IDTO public draft**.
+Thank you for your interest in the IDTO public draft.
 
 This repository hosts a **draft (not established)** concept for a **non-regulatory, no-rating, federated transparency protocol**.  
 We welcome discussion and improvements while keeping the core concept consistent.
@@ -10,7 +10,7 @@ We welcome discussion and improvements while keeping the core concept consistent
 ## Where to post
 
 ### 1) RFC (design discussions)
-Use **Discussions → RFC** for open design questions (especially topics referenced in **Chapter 8: Future Challenges / RFC**).
+Use **Discussions → RFC** for open design questions (especially topics referenced in **Chapter 8: Future Challenges (RFC)**).
 
 Good for:
 - Governance and neutrality
@@ -35,6 +35,10 @@ Use **Issues** for concrete, actionable items such as:
 - Wording that is easily misunderstood
 - Missing references or links
 - Specific edits you propose (include suggested replacement text)
+
+Useful links:
+- Discussions: https://github.com/Kenj2026/idto-public-draft/discussions
+- Issues: https://github.com/Kenj2026/idto-public-draft/issues
 
 ---
 
@@ -73,6 +77,9 @@ When you propose changes (in Discussions, Issues, or PRs), please include:
 - **Trade-offs / risks:** What could go wrong (cost, complexity, capture risk, privacy risk, etc.)
 - **Alternatives (optional):** Other approaches you considered
 - **Success criteria (optional):** What would “better” look like in practice?
+
+For RFC topics, it helps to propose a patch-style output:
+- claim → evidence → impact → proposed patch → alternatives → COI disclosure
 
 ---
 
