@@ -1,93 +1,96 @@
 # FAQ — IDTO Public Draft (DRAFT / not established)
 
 This FAQ supports the IDTO public draft repository.  
-IDTO (International Digital Transparency Organization) is **proposed and not established**.
+**IDTO (International Digital Transparency Organization) is proposed and not established.**
 
 ---
 
 ## 1) What is IDTO?
 IDTO is a **public concept draft** for a **non-regulatory, no-rating, federated transparency protocol**.  
-It proposes a common language (protocol) to make transparency **recordable and reviewable** across digital systems.
+It proposes a common language (a protocol) to make transparency **recordable and reviewable** across digital systems—especially around **intent** and **change history**.
 
 ## 2) Is IDTO an actual organization today?
-No. IDTO is **not established**. This repository publishes a draft proposal for discussion.
+No. IDTO is **not established**. This repository publishes a draft proposal for discussion only.
 
 ## 3) Is IDTO a regulator or an enforcement body?
 No. IDTO is **non-regulatory**.  
-It does not impose sanctions, approvals, approvals for operation, or legal judgments. The goal is to provide a protocol for disclosure and reviewability.
+It does not impose sanctions, approvals, or legal judgments. The goal is to provide a protocol for disclosure and reviewability.
 
 ## 4) Is IDTO a rating agency or a scoring system?
-No. IDTO is **no-rating**.  
-It does not rank, score, or label services and organizations. The intent is to provide structured facts and traceability—not grades.
+No. IDTO is **no rating**.  
+It does not rank, score, label, or certify services or organizations. The intent is to provide structured facts and traceability—not grades.
 
 ## 5) If there is “verification,” how is that different from “rating”?
 Verification is about **evidence, reproducibility, and proposed corrections (patches)**—not grades.  
-IDTO avoids single-score outputs, league tables, labels, or “official rankings.” Third parties may form their own judgments, but IDTO itself is designed to remain **no-rating**.
+IDTO avoids outputs that function as ratings (single scores, league tables, “official labels,” or compliance-style pass/fail).
 
 ## 6) What does “federated” mean in this context?
-Federated means disclosures and records should not be forced into a single central silo.  
+**Federated** means disclosures and records do not need to be centralized into a single mandatory silo.  
 Data can remain with its owner while interoperability is achieved through shared headers, identifiers, formats, and mappings.
 
-## 7) Who is the intended audience?
+## 7) What problem is this trying to solve?
+Digital systems increasingly shape social outcomes, yet:
+- optimization intent is often unclear,
+- change history is rarely accessible,
+- accountability becomes **impression-driven** instead of **evidence-driven**.
+
+IDTO proposes a protocol to support **error-correction and learning** through traceability.
+
+## 8) What is expected to be disclosed?
+At minimum, IDTO aims to make it easier to disclose (in an interoperable way):
+- **Intent:** what the system is optimizing for and what constraints it follows,
+- **Change:** what changed, when, why, and with what evidence references,
+- **Reviewability hooks:** pointers to logs, documents, tests, audits, or other verifiable artifacts.
+
+The protocol is designed to allow a **minimal core** plus optional extensions.
+
+## 9) Does IDTO require sensitive details to be fully public?
+No. The draft allows for **safety-aware staged disclosure** (e.g., public / limited / time-bound embargo), where appropriate, with rationale and review dates.  
+The goal is to improve traceability and reviewability without increasing harm.
+
+## 10) Who is the intended audience?
 - Platform and service operators who want verifiable disclosure  
 - Researchers, auditors, journalists, civil society, and users who need reviewable facts  
 - Policymakers and standards stakeholders who want a neutral transparency foundation  
 - Tool builders who want a common format (protocol) for transparency-related products
 
-## 8) What problem is this trying to solve?
-Digital systems increasingly shape social outcomes, yet:
-- optimization intent is often unclear,
-- change history is rarely accessible,
-- accountability becomes impression-driven instead of evidence-driven.
-
-IDTO proposes a protocol to support error-correction and learning through traceability.
-
-## 9) What is fixed vs. open in the draft?
+## 11) What is fixed vs. open in the draft?
 **Fixed (Constitution):**
-- The **3 Pillars:** Error-Correction as an OS / Recording Intent & Change / Protocol, not a Platform  
-- The **6 Keywords:** Good-faith by default / Non-regulatory / Traceable & auditable / No rating / Federated / Politically neutral
+- **3 Pillars:** Error-Correction as an OS / Recording Intent & Change / Protocol, not a Platform
+- **6 Keywords:** Good-faith by default / Non-regulatory / Traceable & auditable / No rating / Federated / Politically neutral
 
-**Open (RFC):** operational choices and implementation details (see Chapter 8: Future Challenges / RFC).
+**Open (RFC):** operational choices and implementation details (see **Chapter 8: Future Challenges (RFC)**).
 
-## 10) What does “politically neutral” mean here?
+## 12) What does “politically neutral” mean here?
 It means the protocol is not designed to advantage any specific party, ideology, or political actor.  
-It focuses on **recordability, traceability, and reviewability** of claims and changes, rather than pushing political outcomes.
+It focuses on recordability, traceability, and reviewability of claims and changes.
 
-## 11) Does IDTO require blockchain / DLT?
-No. The draft does not require blockchain/DLT.  
-A “registry” can be implemented with many architectures. The key requirement is that disclosures are **traceable, auditable, and do-not-delete by default** where feasible (i.e., corrections should be recorded as superseding updates, not silent replacement).
-
-## 12) How does IDTO handle safety risks (e.g., vulnerability details, harassment risk)?
-The draft supports the idea of **staged disclosure** (public / limited / time-bound embargo) with rationale and review dates.  
-The goal is to increase reviewability without increasing harm. Specific operational rules are open for RFC discussion.
-
-## 13) How should I participate or give feedback?
-- Use Discussions → RFC for open design topics (Chapter 8)  
-- Use Discussions → Q&A for questions and clarifications  
-- Use Issues for concrete, actionable edits (wording, links, suggested text)  
-- See `CONTRIBUTING.md` for posting rules and proposal format
+## 13) Is “IDTO-compatible” an official certification?
+No. IDTO is **not established**, and the draft does not define an official certification program.  
+In practice, “IDTO-compatible” should mean “using the draft’s shared headers / minimal core in a way that preserves traceability,” not “approved by IDTO.”
 
 ## 14) Where is the latest version?
 - Latest draft (pointer): `docs/IDTO_public_draft_latest.md`  
-- Versioned file (stable citation): `docs/IDTO_Concept_Public_Draft_V5.0.md`  
+- Versioned draft (stable citation): `docs/IDTO_Concept_Public_Draft_V5.0.md`  
 - Previous versions: `docs/IDTO_Concept_Public_Draft_V4.6.md`, `docs/IDTO_Concept_Public_Draft_V4.5.md`  
-- Releases (latest):
-  ```text
-  https://github.com/Kenj2026/idto-public-draft/releases/latest
-  ```
+- Releases: see the repository Releases page
 
-## 15) Why keep a “latest” pointer on GitHub?
+For stable citation, cite the **versioned file** and/or a **Release tag**, rather than the “latest” pointer.
+
+## 15) Why use GitHub for the “latest” pointer and versions?
 To make updates and discussion:
-- traceable (history + changelog),
-- citeable (versioned files + releases),
-- structured (RFC / Q&A separation).
+- **traceable** (history + changelog),
+- **citeable** (versioned files + releases),
+- **structured** (RFC / Q&A separation in Discussions).
 
-## 16) Can I translate or reuse this draft?
-Yes, subject to the repository license (CC BY 4.0).  
-Provide attribution and indicate changes where applicable.
+## 16) How should I participate or give feedback?
+- Use Discussions → **RFC** for open design topics (Chapter 8)  
+- Use Discussions → **Q&A** for questions and clarifications  
+- Use **Issues** for concrete, actionable edits (wording, missing links, suggested replacement text)  
+- See `CONTRIBUTING.md` for posting rules and proposal format
 
 ## 17) Does the draft provide legal advice or compliance guidance?
-No. This is a conceptual draft and not legal advice.  
+No. This is a conceptual draft and **not legal advice**.  
 It may inform future discussions, but it is not a compliance manual.
 
 ## 18) How does IDTO relate to transparency laws (EU DSA, EU AI Act, etc.)?
