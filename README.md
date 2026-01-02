@@ -43,4 +43,4 @@ See [`CONTRIBUTING.md`](CONTRIBUTING.md) for where to post (RFC / Q&A / Issues) 
 Content is licensed under **CC BY 4.0** (see [`LICENSE`](LICENSE)).
 
 ## Project summary
-Project summary: [`PROJECT_SUMMARY.md`](PROJECT_SUMMARY.md)
+[`PROJECT_SUMMARY.md`](PROJECT_SUMMARY.md)
