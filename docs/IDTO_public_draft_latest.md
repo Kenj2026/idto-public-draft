@@ -6,6 +6,7 @@ International Digital Transparency Organization (Provisional: IDTO) — Backgrou
 
 ## Notes
 - This document is the **latest** public draft in this repository. It does **not** guarantee the establishment of IDTO, participation by any specific entity, or adoption of the protocol.
+- For stable citation, use the versioned file: `docs/IDTO_Concept_Public_Draft_V5.0.md` (and/or a Release tag).
 - “IDTO” is a provisional name. Any resemblance to existing organizations is coincidental.
 - This document does not constitute legal advice.
 - (Latest) **rebuilds the English draft** to inherit the structure and substantive content of the long-form Japanese V4.5, while preserving the expanded RFC topics introduced in V4.6. The constitutional core (3 pillars / 6 keywords) remains unchanged.
