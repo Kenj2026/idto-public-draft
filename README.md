@@ -37,8 +37,8 @@ Operational choices and implementation details are intentionally open for discus
 
 ## Participate
 
-- Discussions (RFC / Q&A): `../../discussions`  
-- Issues (actionable edits): `../../issues`  
+- Discussions (RFC / Q&A): `https://github.com/Kenj2026/idto-public-draft/discussions`  
+- Issues (actionable edits): `https://github.com/Kenj2026/idto-public-draft/issues`  
 - Contribution guide: [`CONTRIBUTING.md`](CONTRIBUTING.md)
 
 Suggested posting:
