@@ -20,17 +20,21 @@ It does not impose sanctions, approvals, or legal judgments. The goal is to prov
 No. IDTO is **no-rating**.  
 It does not rank, score, or label services and organizations. The intent is to provide structured facts and traceability—not grades.
 
-## 5) What does “federated” mean in this context?
-Federated means disclosures and records should not be centralized into a single silo.  
-Data can remain with its owner while interoperability is achieved through shared headers, formats, and mappings.
+## 5) If there is “verification,” how is that different from “rating”?
+Verification is about **evidence, reproducibility, and proposed corrections (patches)**—not grades.  
+IDTO avoids single-score outputs, league tables, labels, or “official rankings.”
 
-## 6) Who is the intended audience?
+## 6) What does “federated” mean in this context?
+Federated means disclosures and records should not be centralized into a single silo.  
+Data can remain with its owner while interoperability is achieved through shared headers, identifiers, formats, and mappings.
+
+## 7) Who is the intended audience?
 - Platform and service operators who want verifiable disclosure
 - Researchers, auditors, journalists, civil society, and users who need reviewable facts
 - Policymakers and standards stakeholders who want a neutral transparency foundation
 - Tool builders who want a common format (protocol) for transparency-related products
 
-## 7) What problem is this trying to solve?
+## 8) What problem is this trying to solve?
 Digital systems increasingly shape social outcomes, yet:
 - optimization intent is often unclear,
 - change history is rarely accessible,
@@ -38,55 +42,54 @@ Digital systems increasingly shape social outcomes, yet:
 
 IDTO proposes a protocol to support error-correction and learning through traceability.
 
-## 8) What is fixed vs. open in the draft?
-**Fixed (Constitution):**
-- The 3 Pillars: Error-Correction / Intent & Change / Protocol (not Platform)
-- The 6 Keywords: Good-faith / Non-regulatory / Traceable & auditable / No rating / Federated / Politically neutral
+## 9) What is fixed vs. open in the draft?
+Fixed (Constitution):
+- The 3 Pillars: Error-Correction / Intent & Change / Protocol, not a Platform
+- The 6 Keywords: Good-faith by default / Non-regulatory / Traceable & auditable / No rating / Federated / Politically neutral
 
-**Open (RFC):**
-Operational choices and implementation details (see Chapter 8: Future Challenges / RFC).
+Open (RFC):
+- Operational choices and implementation details (see Chapter 8: Future Challenges / RFC).
 
-## 9) How should I participate or give feedback?
-- Use **Discussions → RFC** for open design topics (Chapter 8)
-- Use **Discussions → Q&A** for questions and clarifications
-- Use **Issues** for concrete, actionable edits (wording, links, suggested text)
-- See `CONTRIBUTING.md` for posting rules and proposal format
+## 10) What does “politically neutral” mean here?
+It means the protocol is not designed to advantage any specific party, ideology, or political actor.  
+It focuses on recordability, traceability, and reviewability of claims and changes.
 
-## 10) Where is the latest version?
+## 11) How should I participate or give feedback?
+- Use Discussions → RFC for open design topics (Chapter 8)
+- Use Discussions → Q&A for questions and clarifications
+- Use Issues for concrete, actionable edits (wording, links, suggested text)
+- See CONTRIBUTING.md for posting rules and proposal format
+
+## 12) Where is the latest version?
 - Latest draft: `docs/IDTO_public_draft_latest.md`
-- Versioned file (V4.5): `docs/IDTO_Concept_Public_Draft_V4.5.md`
+- Versioned file (V5.0): `docs/IDTO_Concept_Public_Draft_V5.0.md`
+- Older versions: `docs/IDTO_Concept_Public_Draft_V4.6.md`, `docs/IDTO_Concept_Public_Draft_V4.5.md`
 - Releases (latest): https://github.com/Kenj2026/idto-public-draft/releases/latest
 
-## 11) Why move the “latest” to GitHub?
+## 13) Why move the “latest” to GitHub?
 To make updates and discussion:
 - traceable (history + changelog),
 - citeable (versioned files + releases),
 - structured (RFC / Q&A separation).
 
-## 12) Can I translate or reuse this draft?
+## 14) Can I translate or reuse this draft?
 Yes, subject to the repository license (**CC BY 4.0**).  
 Please provide attribution and indicate changes where applicable. See `LICENSE`.
 
-## 13) Does the draft provide legal advice or compliance guidance?
+## 15) Does the draft provide legal advice or compliance guidance?
 No. This is a conceptual draft and not legal advice.  
 It may inform future discussions, but it is not a compliance manual.
 
-## 14) How does IDTO relate to transparency laws (EU DSA, EU AI Act, etc.)?
-This draft is **not a regulatory framework**.  
+## 16) How does IDTO relate to transparency laws (EU DSA, EU AI Act, etc.)?
+This draft is not a regulatory framework.  
 It is a proposed protocol that could complement many regimes by improving traceability and reviewability, but it does not claim legal authority.
 
-## 15) What would “success” look like?
+## 17) What would “success” look like?
 A world where:
 - intent and change histories are routinely disclosed in interoperable formats,
 - third parties can verify and compare evidence without centralized gatekeeping,
 - error-correction becomes the default operating system for digital accountability.
 
-## 16) I have a question that is not covered here. Where should I ask?
-Please post in **Discussions → Q&A**.  
+## 18) I have a question that is not covered here. Where should I ask?
+Please post in Discussions → Q&A.  
 If the answer becomes common, we will add it to this FAQ.
-
-## 17) Why is this concept proposed now?
-Debates on digital governance are often framed as a choice between **state regulation** and **corporate self-regulation**.  
-IDTO proposes a third approach: **Public Infrastructure for Transparency**.
-
-By standardizing how systems document **intent**, **changes**, and **reviewability**, we can shift from reactive arguments to proactive, evidence-based improvement.

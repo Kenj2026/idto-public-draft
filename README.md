@@ -1,21 +1,21 @@
 # IDTO Public Draft (DRAFT / not established)
 
 **IDTO (International Digital Transparency Organization) is proposed and not established.**  
-This repository publishes a public draft of the IDTO concept: a **non-regulatory, no-rating, federated transparency protocol** (for discussion).
+This repository publishes a public draft of the IDTO concept: a **non-regulatory, no-rating, federated transparency protocol** (for discussion and iterative improvement).
 
 ## Vision
 Our goal is to make this concept widely adoptable so that anyone can implement it.  
-IDTO is a **protocol-first** draft and implementation is **permissionless**: anyone can build tools, registries, or verification layers on top of a shared format.  
+IDTO is **protocol-first** and implementation is **permissionless**: different actors can run registries, build tools, and operate verification workflows on top of a shared format.  
 We aim for transparency to become a **shared public infrastructure**, not a centralized gatekeeper.
 
 ## Read the latest
-- Latest draft: [`docs/IDTO_public_draft_latest.md`](docs/IDTO_public_draft_latest.md)
-- Versioned draft (V4.6): [`docs/IDTO_Concept_Public_Draft_V4.6.md`](docs/IDTO_Concept_Public_Draft_V4.6.md)
-- Release (v4.6): https://github.com/Kenj2026/idto-public-draft/releases/tag/v4.6
-- Latest release: https://github.com/Kenj2026/idto-public-draft/releases/latest
+- Latest draft (pointer): [`docs/IDTO_public_draft_latest.md`](docs/IDTO_public_draft_latest.md)
+- Versioned draft (V5.0): [`docs/IDTO_Concept_Public_Draft_V5.0.md`](docs/IDTO_Concept_Public_Draft_V5.0.md)
+- Releases (latest): https://github.com/Kenj2026/idto-public-draft/releases/latest
 - FAQ: [`FAQ.md`](FAQ.md)
 
 ## Fixed (Constitution)
+The following are non-negotiable core principles of the IDTO concept:
 
 ### 3 Pillars
 - Error-Correction as an OS
@@ -31,10 +31,11 @@ We aim for transparency to become a **shared public infrastructure**, not a cent
 - Politically neutral
 
 ## Open (RFC)
-See “Future Challenges (RFC)” in the draft and use **Discussions → RFC / Q&A** to propose improvements and alternatives.
+Operational details and implementation choices are intentionally open.  
+See **Chapter 8: Future Challenges (RFC)** in the draft and use **Discussions → RFC / Q&A** to propose improvements and alternatives.
 
 - Discussions: https://github.com/Kenj2026/idto-public-draft/discussions
-- RFC threads index (Chapter 8): https://github.com/Kenj2026/idto-public-draft/discussions/categories/rfc
+- RFC category: https://github.com/Kenj2026/idto-public-draft/discussions/categories/rfc
 
 ## Contributing
 See [`CONTRIBUTING.md`](CONTRIBUTING.md) for where to post (RFC / Q&A / Issues) and how to propose changes.
