@@ -28,9 +28,9 @@ V5.0 is a **structure + content integration** update to inherit the longer-form 
 **No changes** to the Constitution-level core (3 pillars / 6 keywords).
 
 - Rebuilt the English draft to inherit the long-form structure (Background + Draft Explanation).
-- Restored missing “bridge” sections for readability and adoption (federation design, non-goals, operating guardrails, MVP).
-- Restored the independent “README for Society” chapter structure (and the Closing section).
-- Preserved and integrated v4.6 RFC expansion in Chapter 8:
+- Restored “bridge” sections for readability and adoption (federation design, non-goals, operating guardrails, MVP).
+- Restored the independent chapter structure (“A README for Society”) and the Closing section.
+- Preserved and integrated the v4.6 RFC expansion in Chapter 8:
   - Defensive disclosure & safety-aware staged disclosure
   - Incentives & trust signals (without rating)
   - Machine readability & structured schemas
