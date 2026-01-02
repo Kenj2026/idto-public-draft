@@ -31,7 +31,7 @@ Use simple semantic intent:
 - **Minor (X.Y):** meaningful additions/clarifications that preserve structure
 - **Patch (X.Y.Z, optional):** typo fixes, link fixes, or minor phrasing corrections
 
-If you want to keep tags strictly `vX.Y` only, treat patch-level fixes as `X.(Y+1)` and describe them in CHANGELOG.
+If you want to keep tags strictly `vX.Y` only, treat patch-level fixes as `X.(Y+1)` and describe them in `CHANGELOG.md`.
 
 ---
 
@@ -41,7 +41,7 @@ If you want to keep tags strictly `vX.Y` only, treat patch-level fixes as `X.(Y+
 - Decide the target version number (e.g., `V5.1`) and tag (e.g., `v5.1`).
 - Confirm whether the change affects the **Constitution-level core**:
   - If yes, start with an RFC discussion and document rationale carefully.
-  - If no, state explicitly “No changes to the Constitution-level core.”
+  - If no, state explicitly: **“No changes to the Constitution-level core.”**
 - Prepare a short summary of changes (2–6 bullets) for:
   - `CHANGELOG.md`
   - Release notes
@@ -68,15 +68,14 @@ Recommendations inside the draft:
   - **3 Pillars:** Error-Correction as an OS / Recording Intent & Change / Protocol, not a Platform  
   - **6 Keywords:** Good-faith by default / Non-regulatory / Traceable & auditable / No rating / Federated / Politically neutral
 
-**Commit message example:**  
-`Add IDTO Concept Public Draft V5.1 (EN)`
+Commit message example:
+- `Add IDTO Concept Public Draft V5.1 (EN)`
 
 ---
 
 ### Step 2 — Update the latest pointer (no full-text duplication)
 
 Edit:
-
 - `docs/IDTO_public_draft_latest.md`
 
 Update:
@@ -87,15 +86,14 @@ Update:
 - Fixed (Constitution) block (exact wording)
 - RFC pointer (Chapter 8) and participation links
 
-**Commit message example:**  
-`Update latest pointer to V5.1`
+Commit message example:
+- `Update latest pointer to V5.1`
 
 ---
 
 ### Step 3 — Update CHANGELOG.md
 
 Edit:
-
 - `CHANGELOG.md`
 
 Add a new section at the top:
@@ -109,4 +107,110 @@ Add a new section at the top:
 - Bullet 3 (optional)
 
 **No changes**
-- No changes to the Constitution-level core (3 pillars / 6 keywords).   (if applicable)
+- No changes to the Constitution-level core (3 pillars / 6 keywords). (if applicable)
+```
+
+Keep bullets consistent with:
+- the release notes, and
+- the “What changed” section in `docs/IDTO_public_draft_latest.md`.
+
+Commit message example:
+- `Update changelog for V5.1`
+
+---
+
+### Step 4 — Update repository guidance (only if needed)
+
+Edit as necessary:
+- `README.md` (latest pointer + versioned file + release guidance)
+- `FAQ.md` (latest pointers, definitions, verification ≠ rating)
+- `CONTRIBUTING.md` (examples like “Publishing new versions (e.g., V5.1)”)
+- `PROJECT_SUMMARY.md` (reading order + pointer policy)
+- `UPDATE_PLAYBOOK.md` (this file, if the process evolves)
+
+Rule of thumb:
+- If the change is purely in the draft text, you may not need to edit guidance files.
+- If the update changes terminology, structure, or repository navigation, update guidance.
+
+---
+
+### Step 5 — Run the consistency checks (recommended)
+
+These checks prevent the most common drift:
+
+**A) File existence**
+- `docs/IDTO_Concept_Public_Draft_VX.Y.md` exists
+- `docs/IDTO_public_draft_latest.md` exists
+- older versioned drafts remain in `docs/`
+
+**B) Version strings**
+- README / FAQ / PROJECT_SUMMARY / docs/latest reference the new `Vx.y` where appropriate
+- No “Latest version (V4.x)” remnants remain unless intentionally preserved as “previous versions”
+
+**C) Constitution fixed wording (exact match)**
+Ensure these exact strings appear (in guidance and/or docs/latest):
+- `Error-Correction as an OS`
+- `Recording Intent & Change`
+- `Protocol, not a Platform`
+- `Good-faith by default`
+- `Non-regulatory`
+- `Traceable & auditable`
+- `No rating`
+- `Federated`
+- `Politically neutral`
+
+**D) Links**
+- Versioned draft link in README works
+- `docs/IDTO_public_draft_latest.md` links to the correct versioned file
+- Discussions/Issues links are stable (prefer absolute URLs)
+
+If you maintain a local check script, run it here.
+
+---
+
+### Step 6 — Tag and Release
+
+After merging/pushing commits to `main`:
+
+1) Create an annotated tag:
+- Tag: `vX.Y`
+
+2) Push tag:
+- `git push --tags`
+
+3) Create a GitHub Release:
+- Title: `vX.Y`
+- Body: copy the same bullets used in `CHANGELOG.md` and docs/latest “What changed”
+- Attachments: optional (usually not needed for markdown-only repositories)
+
+---
+
+### Step 7 — Announce (recommended)
+
+Post in **Discussions → Announcements**:
+- one-line summary,
+- 3–6 bullets (same as release notes),
+- links to:
+  - the versioned draft file,
+  - the release page,
+  - the RFC chapter guidance (Chapter 8).
+
+This keeps public discussion anchored to a stable snapshot.
+
+---
+
+## Post-update verification (quick)
+
+- Open repository home page: README links resolve
+- Open `docs/IDTO_public_draft_latest.md`: points to the correct versioned file
+- Open the versioned file: content is correct, headings render, Chapter 8 RFC is intact
+- Open Releases page: `vX.Y` is visible and correct
+
+---
+
+## Notes on editing older versions
+
+Versioned draft files (e.g., `V5.0`) are intended as stable citation targets.  
+If you must correct a serious error in a published version, prefer:
+- releasing a patch version (e.g., `V5.0.1`) or a new minor version (`V5.1`), and
+- clearly recording the reason in `CHANGELOG.md`.
