@@ -1,47 +1,47 @@
 # IDTO Public Draft (DRAFT / not established)
 
 **IDTO (International Digital Transparency Organization) is proposed and not established.**  
-This repository publishes a public draft of the IDTO concept: a **non-regulatory, no-rating, federated transparency protocol** (for discussion and iterative improvement).
+This repository publishes a public concept draft for a **non-regulatory, no-rating, federated transparency protocol**.
 
-## Vision
-Our goal is to make this concept widely adoptable so that anyone can implement it.  
-IDTO is **protocol-first** and implementation is **permissionless**: different actors can run registries, build tools, and operate verification workflows on top of a shared format.  
-We aim for transparency to become a **shared public infrastructure**, not a centralized gatekeeper.
+IDTO proposes a common language (a protocol) that makes digital-system transparency **recordable and reviewable**—especially around:
+- **Intent:** what a system is optimizing for, and what constraints it follows
+- **Change:** what changed, when, why, and with what evidence references
+- **Error-correction:** how claims can be challenged and improved over time
 
-## Read the latest
-- Latest draft (pointer): [`docs/IDTO_public_draft_latest.md`](docs/IDTO_public_draft_latest.md)
-- Versioned draft (V5.0): [`docs/IDTO_Concept_Public_Draft_V5.0.md`](docs/IDTO_Concept_Public_Draft_V5.0.md)
-- Releases (latest): https://github.com/Kenj2026/idto-public-draft/releases/latest
-- FAQ: [`FAQ.md`](FAQ.md)
+## Read the draft
+- Latest draft (pointer): [`docs/IDTO_public_draft_latest.md`](docs/IDTO_public_draft_latest.md)  
+- Versioned draft (stable citation): [`docs/IDTO_Concept_Public_Draft_V5.0.md`](docs/IDTO_Concept_Public_Draft_V5.0.md)
 
-## Fixed (Constitution)
-The following are non-negotiable core principles of the IDTO concept:
+For stable citation, prefer the **versioned** file and/or a GitHub **Release tag** (rather than the “latest” pointer).
 
-### 3 Pillars
-- Error-Correction as an OS
-- Recording Intent & Change
-- Protocol, not a Platform
+## Fixed vs. open in this draft
+**Fixed (Constitution; non-negotiable)**
+- **3 Pillars:** Error-Correction as an OS / Recording Intent & Change / Protocol, not a Platform  
+- **6 Keywords:** Good-faith by default / Non-regulatory / Traceable & auditable / No rating / Federated / Politically neutral
 
-### 6 Keywords
-- Good-faith by default
-- Non-regulatory
-- Traceable & auditable
-- No rating
-- Federated
-- Politically neutral
+**Open (RFC; intentionally open for discussion)**
+- Operational choices and implementation details (see **Chapter 8: Future Challenges (RFC)**)
 
-## Open (RFC)
-Operational details and implementation choices are intentionally open.  
-See **Chapter 8: Future Challenges (RFC)** in the draft and use **Discussions → RFC / Q&A** to propose improvements and alternatives.
+## Participate
+- Discussions (RFC / Q&A):  
+  ```text
+  https://github.com/Kenj2026/idto-public-draft/discussions
+  ```
+- RFC category:  
+  ```text
+  https://github.com/Kenj2026/idto-public-draft/discussions/categories/rfc
+  ```
+- Latest Releases:  
+  ```text
+  https://github.com/Kenj2026/idto-public-draft/releases/latest
+  ```
 
-- Discussions: https://github.com/Kenj2026/idto-public-draft/discussions
-- RFC category: https://github.com/Kenj2026/idto-public-draft/discussions/categories/rfc
-
-## Contributing
-See [`CONTRIBUTING.md`](CONTRIBUTING.md) for where to post (RFC / Q&A / Issues) and how to propose changes.
+## Repository guide
+- FAQ: [`FAQ.md`](FAQ.md)  
+- How to contribute: [`CONTRIBUTING.md`](CONTRIBUTING.md)  
+- Project overview: [`PROJECT_SUMMARY.md`](PROJECT_SUMMARY.md)  
+- Change history: [`CHANGELOG.md`](CHANGELOG.md)
 
 ## License
-Content is licensed under **CC BY 4.0** (see [`LICENSE`](LICENSE)).
-
-## Project summary
-[`PROJECT_SUMMARY.md`](PROJECT_SUMMARY.md)
+Content is licensed under **CC BY 4.0** (see [`LICENSE`](LICENSE)).  
+This repository and draft do **not** provide legal advice or compliance guidance.
