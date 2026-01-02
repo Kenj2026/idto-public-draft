@@ -10,8 +10,8 @@ We aim for transparency to become a **shared public infrastructure**, not a cent
 
 ## Read the latest
 - Latest draft: [`docs/IDTO_public_draft_latest.md`](docs/IDTO_public_draft_latest.md)
-- Versioned draft (V4.5): [`docs/IDTO_Concept_Public_Draft_V4.5.md`](docs/IDTO_Concept_Public_Draft_V4.5.md)
-- Release (v4.5): https://github.com/Kenj2026/idto-public-draft/releases/tag/v4.5
+- Versioned draft (V4.6): [`docs/IDTO_Concept_Public_Draft_V4.6.md`](docs/IDTO_Concept_Public_Draft_V4.6.md)
+- Release (v4.6): https://github.com/Kenj2026/idto-public-draft/releases/tag/v4.6
 - Latest release: https://github.com/Kenj2026/idto-public-draft/releases/latest
 - FAQ: [`FAQ.md`](FAQ.md)
 
@@ -34,6 +34,7 @@ We aim for transparency to become a **shared public infrastructure**, not a cent
 See “Future Challenges (RFC)” in the draft and use **Discussions → RFC / Q&A** to propose improvements and alternatives.
 
 - Discussions: https://github.com/Kenj2026/idto-public-draft/discussions
+- RFC threads index (Chapter 8): https://github.com/Kenj2026/idto-public-draft/discussions/categories/rfc
 
 ## Contributing
 See [`CONTRIBUTING.md`](CONTRIBUTING.md) for where to post (RFC / Q&A / Issues) and how to propose changes.
