@@ -14,13 +14,12 @@ This summary helps readers quickly understand:
 
 ## 1) What IDTO is (and is not)
 
-### What it is
-A public concept draft for a transparency protocol that makes **intent** and **change history** recordable and reviewable across digital systems.
+IDTO proposes a **protocol (common language)** that makes transparency **recordable and reviewable** across digital systems—especially around **intent** and **change history**.
 
-### What it is not
-- Not a regulator or enforcement body (**non-regulatory**)
-- Not a rating/scoring/labeling scheme (**no rating**)
-- Not a centralized platform or monopoly registry (**federated / protocol-first**)
+IDTO is **not**:
+- a regulator or enforcement body (**non-regulatory**),
+- a rating/scoring/labeling scheme (**no rating**),
+- a centralized platform or monopoly registry (**federated / protocol-first**).
 
 ---
 
@@ -28,57 +27,56 @@ A public concept draft for a transparency protocol that makes **intent** and **c
 
 ### Fixed (Constitution)
 Non-negotiable core principles:
-- **3 Pillars:** Error-Correction as an OS / Recording Intent & Change / Protocol, not a Platform
+- **3 Pillars:** Error-Correction as an OS / Recording Intent & Change / Protocol, not a Platform  
 - **6 Keywords:** Good-faith by default / Non-regulatory / Traceable & auditable / No rating / Federated / Politically neutral
+
+Proposals that contradict these are out of scope for this draft.
 
 ### Open (RFC)
 Operational details and implementation choices are intentionally open for discussion in **Chapter 8: Future Challenges (RFC)**, including:
-- Disclosure granularity (minimal core vs extensions)
-- Federation mechanisms and interoperability rules
-- Verification models and improvement loops (patch-oriented review)
-- Safety and privacy guardrails (including staged disclosure)
-- Incentives & trust signals (without rating)
+- disclosure granularity (minimal core vs extensions),
+- interoperability and federation mechanisms,
+- verification models and improvement loops,
+- privacy & safety guardrails,
+- incentives and adoption pathways.
 
 ---
 
-## 3) Repository structure
+## 3) Repository layout and reading order
 
-### Draft documents
-- Latest pointer: `docs/IDTO_public_draft_latest.md`
-- Versioned draft (stable citation): `docs/IDTO_Concept_Public_Draft_V5.0.md`
-- Prior versions: `docs/IDTO_Concept_Public_Draft_V4.6.md`, `docs/IDTO_Concept_Public_Draft_V4.5.md`
+### Where to read
+- Latest draft (pointer): `docs/IDTO_public_draft_latest.md`  
+- Versioned file (stable citation): `docs/IDTO_Concept_Public_Draft_V5.0.md`  
+- Previous versions: `docs/IDTO_Concept_Public_Draft_V4.6.md`, `docs/IDTO_Concept_Public_Draft_V4.5.md`
 
-### Guidance documents
-- `README.md`: entry point and links
-- `FAQ.md`: common questions / anti-misunderstanding guardrails
-- `CONTRIBUTING.md`: where and how to contribute
-- `CHANGELOG.md`: high-level change history
+For stable citation, cite the **versioned file** and/or a GitHub **Release tag**, rather than the “latest” pointer.
 
----
-
-## 4) How to contribute (quick start)
-- Use **Discussions → RFC** for design questions and open issues (Chapter 8).
-- Use **Discussions → Q&A** for clarification and definitions.
-- Use **Issues** for concrete edits with proposed replacement text.
-
-A strong contribution usually includes: proposed change, rationale, risks/trade-offs, and alternatives.
+### What each file is for
+- `docs/IDTO_Concept_Public_Draft_Vx.y.md`: versioned drafts for stable citation
+- `docs/IDTO_public_draft_latest.md`: always points to the current latest draft
+- `README.md`: repository front door (what this is and where to read)
+- `FAQ.md`: common questions and misinterpretation guardrails
+- `CONTRIBUTING.md`: how to propose changes (RFC/Q&A/Issues/PRs)
+- `CHANGELOG.md`: change history across versions
+- `UPDATE_PLAYBOOK.md`: how releases and updates are performed (process)
 
 ---
 
-## 5) Citation and versioning
-For stable citation, reference a **versioned file** (e.g., `V5.0`) and/or a GitHub **Release tag**. Avoid citing the “latest” pointer for academic, journalistic, or policy references.
+## 4) How to participate
+
+Suggested posting:
+- **RFC (design discussions):** use Discussions → RFC (especially Chapter 8 topics)
+- **Q&A:** use Discussions → Q&A for clarifications and terminology
+- **Issues:** use Issues for concrete, actionable edits (wording, missing links, suggested replacement text)
+
+Please keep discussion constructive and evidence-oriented:
+- assume good faith,
+- focus on improving the draft (not scoring participants),
+- when criticizing a claim, prefer “claim + evidence + suggested patch.”
 
 ---
 
-## 6) Design intent: why protocol-first?
-IDTO is designed to be:
-- **permissionless** (anyone can implement),
-- **federated** (no forced central silo),
-- **no-rating** (structured facts and traceability, not grades),
-- **evidence-oriented** (reviewability through recorded intent and change).
+## 5) License and reuse
 
----
-
-## 7) License and disclaimers
-Content is licensed under **CC BY 4.0** (see `LICENSE`).  
-This repository and draft do **not** provide legal advice or compliance guidance.
+Content is licensed under **CC BY 4.0**.  
+You may translate and reuse the text with attribution and change indication (see `LICENSE`).
